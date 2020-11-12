@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+
+header{
+    margin-bottom: 0px !important;
+}
+#chat
+{
+    background: url("https://telegram.org/file/464001098/2/aw1iikW0b4I.78035/2083cd76dcb5f4fda4");
+    padding: 50px 0px;
+}
+
+.msg{
+    display: flex;
+    padding: 10px ;
+
+}
+
+.msg.bot{
+    margin-right: 30%;
+
+}
+
+.content{
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 0 10px;
+}
+
+.bot .content{
+    color : white;
+    border-top-left-radius: 0px;
+    background-color: rgba(143, 172, 170, 0.582);
+}
+
+.bot::before{
+    content:'';
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQKiMfZYyQLxyBiTO1hkYY8mgFthPpOEVrXaw&usqp=CAU");
+    background-size: cover;
+}
+
+.msg.user{
+    margin-left: 30%;
+    justify-content:flex-end;
+}
+.user .content{
+    border-top-right-radius: 0px;
+    background-color: rgba(143, 172, 170, 0.582);
+}
+
+.user::after{
+    content:'';
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTLAFXK2MihEQSj_Udwnn1-lH6BDzU8cjq2JA&usqp=CAU");
+    background-size: cover;
+}
+
+.jumbotron{
+    background: url("https://i.pinimg.com/originals/7d/45/37/7d45377babaf31708679ebfbd3f16736.jpg");
+    background-size: cover;
+}
+
+.form
+{
+    min-width: 150px;
+    display: block;
+
+}
+
+.hd
+{
+    color: white;
+    text-decoration-style: dotted;
+}
+.label {
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.key {
+    margin-right: 20px;
+    font-weight: 500;
+    color: orange;
+    width: 100px;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.value {
+    width: 100px;
+    font-size: 2em;
+    text-align: right;
+    display: inline-block;
+}
